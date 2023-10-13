@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="h-center">
+        <div class="register-bg-container">
+            <h1 class="Register-heading"> Register Form </h1>
+            <p>username: <input type="username" name="enter text" id="enter text" value="" /></p>
+            <p>email: <input type="email" name="enter valid mail" id="enter valid mail" value="" /></p>
+            <p>phone number: <input type="number" name="enter number" id="enter number" value="" /></p>
+            <p>New password: <input type="password" name="enter password" id="enter password" value="" /></p>
+            <p>confirm password: <input type="confirm password" name="" id="" value="" /></p>
+            
+	<a href="register.html"><button class="btn">Register</button></button>
+        </div>
+    </div>
+</body>
+
+</html>
+//css
+.h-center {
+    text-align: center;
+}
+
+.register-bg-container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2BBLHYjDQZZ80P4_d3i4466NWJMWJLMeRyw&usqp=CAU");
+    height: 100vh;
+    background-size: cover;
+}
+
+.Register-heading {
+    color: ;
+    font-family: "coveat";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.btn {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
